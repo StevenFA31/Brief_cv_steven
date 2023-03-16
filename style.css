@@ -1,0 +1,120 @@
+/******************** ALL **********************/
+* {
+font-family: 'Quicksand', sans-serif;
+margin: 0;
+color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+    background-image: url(./asset/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+  }
+
+div.container {
+  margin: auto;
+  max-width: 1000px;
+  height: auto;
+  justify-content: center;
+  padding: 40px;
+}
+/******************** A propos de moi **********************/
+section.about{
+    height: 100vh;
+}
+
+section.about img {
+    width: auto;
+    height: 300PX;
+    padding: 0 0 40px 0;
+}
+
+section.about h2 {
+padding-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: center;
+  }
+
+.firstbox {
+    width: 40%;
+}
+
+.secondbox {
+    width: 60%;
+}
+/******************** Expériences **********************/
+
+.cube{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.children {
+  flex: 45%;
+  height: 140px;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 10px;
+  
+}
+  
+/******************** Formation **********************/
+.children#no {
+ border: none;
+ 
+}
+
+/******************** Contact **********************/
+/******************** Footer **********************/
+
+footer {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .logofooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+  
+  footer p {
+    font-size: 13px;
+    margin: 0;
+  }
+  
+  .iconlinkedin {
+    height: 31px;
+    width: auto;
+    padding: 15px;
+  }
+  .icongithub {
+    height: 35px;
+    width: auto;
+    padding: 15px;
+  }
+  .iconpaper {
+    height: 32px;
+    width: auto;
+    padding: 15px;
+  }
